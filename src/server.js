@@ -10,7 +10,8 @@ import { genericErrorHandler, notFoundErrorHandler, badRequestErrorHandler, unau
 
 const server = express()
 
-const port = 3001
+const port = process.env.PORT
+
 const publicFolderPath = join(process.cwd(), "./public")
 
 // *********************** MIDDLEWARES ***************************
@@ -47,3 +48,5 @@ server.listen(port, () => {
   console.table(listEndpoints(server))
   console.log(`Server is listening on port ${port}!`)
 })
+
+console.log(process.env.MONGO_CONNECTION_STRING)
