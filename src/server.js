@@ -41,7 +41,7 @@ ORIGIN:
 */
 
 // **********************************************************************************************
-const whitelist = ["http://localhost:3000", "https://mywonderfulfe.com"]
+const whitelist = [process.env.FE_DEV_URL, process.env.FE_PROD_URL]
 
 const corsOptions = {
   origin: (origin, next) => {
