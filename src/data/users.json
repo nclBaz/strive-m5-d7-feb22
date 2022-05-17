@@ -1,0 +1,19 @@
+[
+  { "firstName": "Leon", "lastName": "Bourke", "createdAt": "2022-05-10T10:44:30.960Z", "id": "3kgdm0l300zypd" },
+  { "firstName": "Leon", "lastName": "Bourke", "createdAt": "2022-05-10T10:44:33.336Z", "id": "3kgdm0l30100jc" },
+  {
+    "firstName": "askdjnkasndkasndksa",
+    "lastName": "Bourke",
+    "createdAt": "2022-05-10T10:44:33.953Z",
+    "id": "3kgdm0l301010h",
+    "updatedAt": "2022-05-10T10:48:55.263Z"
+  },
+  {
+    "firstName": "Leonnnnnnnnnnnnnnnnnnnnnnnn",
+    "lastName": "Bourke",
+    "createdAt": "2022-05-10T10:44:34.481Z",
+    "id": "3kgdm0l30101f5",
+    "updatedAt": "2022-05-10T10:48:40.604Z",
+    "avatar": "/img/users/3kgdm0l30101f5.gif"
+  }
+]
